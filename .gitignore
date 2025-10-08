@@ -1,0 +1,14 @@
+# venv / cache / build
+.venv/
+venv/
+*/.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+build/
+dist/
+
+# 大きい生成物があり得るディレクトリがあれば
+outputs/
+data/
+.DS_Store

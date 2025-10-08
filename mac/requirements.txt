@@ -1,0 +1,24 @@
+# === 基本ライブラリ ===
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+
+# === PyTorch (Apple Silicon対応 Metal backend) ===
+torch>=2.2.0
+torchvision
+torchaudio
+
+# === ベンチマーク・プロファイリング用 ===
+torchinfo          # モデル概要
+psutil             # CPU / メモリ使用率取得
+tqdm               # 進捗バー
+perfplot           # ベンチマークグラフ描画
+memory_profiler    # メモリ使用量測定
+tabulate           # 表形式出力
+
+# === 実験・ノートブック環境 ===
+jupyterlab
+notebook
+ipython
